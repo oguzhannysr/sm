@@ -134,5 +134,5 @@ function evaluatePixel(samples, scenes) {
     } else {
         b = 1.0 + (Thresh_4 - v) / (vmax - Thresh_4) / 2;
     }
-    return [v];
+    return [Mv];
 }
